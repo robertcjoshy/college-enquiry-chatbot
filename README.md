@@ -1,4 +1,4 @@
 # college enquiry chatbot
-![](https://github.com/robertcjoshy/college-enquiry-chatbot/images/screenshot_1)
-![](https://github.com/robertcjoshy/college-enquiry-chatbot/images/screenshot_2)
-![](https://github.com/robertcjoshy/college-enquiry-chatbot/images/screenshot_3)
+![](https://github.com/robertcjoshy/college-enquiry-chatbot/images/Screenshot_1.png)
+![](https://github.com/robertcjoshy/college-enquiry-chatbot/images/Screenshot_2.png)
+![](https://github.com/robertcjoshy/college-enquiry-chatbot/images/Screenshot_3.png)
