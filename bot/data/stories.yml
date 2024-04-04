@@ -1,0 +1,80 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: courses path
+  steps:
+  - intent: courses
+  - action: utter_courses
+
+- story: my_name_is path
+  steps:
+  - intent: my_name_is
+  - action: utter_my_name_is
+
+- story: ask_apply_online path
+  steps:
+  - intent: ask_apply_online
+  - action: utter_ask_apply_online
+
+- story: ask_placements path
+  steps:
+  - intent: ask_placements
+  - action: utter_ask_placements
+
+- story: mca_placement path
+  steps:
+  - intent: mca_placement
+  - action: utter_mca_placement
+
+- story: mca_details path
+  steps:
+  - intent: mca_details
+  - action: utter_mca_details
+
+- story: mca_companys path
+  steps:
+  - intent: mca_companys
+  - action: utter_mca_companys
+
+- story: mca_hod path
+  steps:
+  - intent: mca_hod
+  - action: utter_mca_hod
+
+- story: admission_cord path
+  steps:
+  - intent: admission_cord
+  - action: utter_admission_cord
+
+- story: mca_fees path
+  steps:
+  - intent: mca_fees
+  - action: utter_mca_fees

@@ -1,0 +1,74 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - courses
+  - my_name_is
+  - ask_apply_online
+  - ask_placements
+  - mca_placement
+  - mca_details
+  - mca_companys
+  - mca_hod
+  - admission_cord
+  - mca_fees
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_courses:
+  - text: "fisat offers industry-oriented professional programs in Engineering, MBA, MCA. For more information visit our official site 'https://www.fisat.in/admissions/course-fee.php'"
+
+  utter_my_name_is:
+  - text: "Nice to meet you {person}" 
+
+  utter_ask_apply_online:
+  - text: "fisat provides offline as well as online admission procedure. Online admission procedure focuses on CUCET examination. Apply Now on 'https://www.fisat.in/admissions/how-to-apply.php'!"
+
+  utter_ask_placements:
+  - text: "Highest Package in 2021-22 Engineering - ₹10LPA, MBA - ₹12LPA, MCA - 12LPA  For detailed information visit 'https://www.fisat.in/placements/'"
+
+  utter_mca_placement:
+  - text: "2020 - 70 placement offers, 2021 - 100 placement offers"
+
+  utter_mca_details:
+  - text: "Established in the year 2006, the Department of Computer Applications is currently offering a professional two-year PG Programme in Computer Applications with an annual intake of 120. The MCA programme at FISAT is affiliated to APJ Abdul Kalam Technological University and is recognized by AICTE"
+
+  utter_mca_companys:
+  - text: "tcs,cts,ibm,federal bank,infosys............."
+
+  utter_mca_hod:
+  - text: "Dr. Deepa Mary Mathews,Head, Department of Computer Applications,Ph: +91-484-2725-281,mca@fisat.ac.in,,deepamarymathews@fisat.ac.in"
+
+  utter_admission_cord:
+  - text: "Dr. Santhosh Kottam, Asst. Prof (Sr.Gr), Department of Computer Applications, Mr. Nithin Rajan, Asst. Prof., Department of Computer Applications."
+
+  utter_mca_fees:
+  - text: "$1.30,000"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
